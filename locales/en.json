@@ -1,0 +1,101 @@
+{
+    "aboutMe": {
+        "title": "Hello, I'm ",
+        "firstSubTitle": "I'm 22 years old, and I have been passionate about computer science for a little over 5 years.",
+        "secondSubTitle": {
+            "part1": "Today, I'm a DevOps engineering apprentice at ",
+            "link1": "Polytech Montpellier",
+            "part2": " and in a work-study program with ",
+            "link2": "Kaliop",
+            "part3": " !"
+        }
+    },
+    "career": {
+        "title": "Career",
+        "components": {
+            "schools": [
+                {
+                    "name": "Montpellier Faculty of Science",
+                    "years": [
+                        {
+                            "name": "Computer Science Bachelor's - 1",
+                            "start": "2020",
+                            "end": "2021"
+                        },
+                        {
+                            "name": "Computer Science Bachelor's - 2",
+                            "start": "2021",
+                            "end": "2022"
+                        },
+                        {
+                            "name": "Computer Science Bachelor's - 3",
+                            "start": "2022",
+                            "end": "2023"
+                        }
+                    ]
+                },
+                {
+                    "name": "Polytech Montpellier",
+                    "years": [
+                        {
+                            "name": "DevOps - Year 3",
+                            "start": "2023",
+                            "end": "2024"
+                        },
+                        {
+                            "name": "DevOps - Year 4",
+                            "start": "2024",
+                            "end": "2025"
+                        }
+                    ]
+                }
+            ],
+            "companies": [
+                {
+                    "name": "Kaliop",
+                    "jobs": [
+                        {
+                            "title": "Software Engineering Apprentice",
+                            "start": "april 2024",
+                            "end": "today",
+                            "description": "I contribute to the development of web applications using Agile methodology for large international groups. I work daily with technologies such as Nuxt3, NestJS, GraphQL, Redis, and OpenSearch."
+                        }
+                    ]
+                },
+                {
+                    "name": "Lundi Matin",
+                    "jobs": [
+                        {
+                            "title": "DevOps Engineering Apprentice",
+                            "start": "october 2023",
+                            "end": "march 2024",
+                            "description": "Within the infrastructure department, I was involved in maintaining the infrastructure and implementing new tools for the development team."
+                        }
+                    ]
+                },
+                {
+                    "name": "Eiffage Energy System",
+                    "jobs": [
+                        {
+                            "title": "Internship in Web Development",
+                            "start": "june 2023",
+                            "end": "august 2023",
+                            "description": "Within the web development department, I contributed to the development of the SmartCar-E web application for the Eiffage group."
+                        }
+                    ]
+                },
+                {
+                    "name": "LIRMM",
+                    "jobs": [
+                        {
+                            "title": "Research Lab Internship",
+                            "start": "may 2022",
+                            "end": "july 2022",
+                            "description": "Within the TEXT team, I contributed to the research of new text processing methods for the laboratory's researchers."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

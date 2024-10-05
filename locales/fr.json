@@ -1,0 +1,101 @@
+{
+    "aboutMe": {
+        "title": "Bonjour, je m'appelle ",
+        "firstSubTitle": "J’ai 22 ans et je suis passionné d’informatique depuis un peu plus de 5 ans.",
+        "secondSubTitle": {
+            "part1": "Je suis aujourd’hui apprenti ingénieur DevOps à l’école ",
+            "link1": "Polytech de Montpellier",
+            "part2": " et en alternance avec l’entreprise ",
+            "link2": "Kaliop",
+            "part3": " !"
+        }
+    },
+    "career": {
+        "title": "Parcours",
+        "components": {
+            "schools": [
+                {
+                    "name": "Faculté des Sciences de Montpellier",
+                    "years": [
+                        {
+                            "name": "Licence 1 Informatique",
+                            "start": "2020",
+                            "end": "2021"
+                        },
+                        {
+                            "name": "Licence 2 Informatique",
+                            "start": "2021",
+                            "end": "2022"
+                        },
+                        {
+                            "name": "Licence 3 Informatique",
+                            "start": "2022",
+                            "end": "2023"
+                        }
+                    ]
+                },
+                {
+                    "name": "Polytech Montpellier",
+                    "years": [
+                        {
+                            "name": "DevOps 3",
+                            "start": "2023",
+                            "end": "2024"
+                        },
+                        {
+                            "name": "DevOps 4",
+                            "start": "2024",
+                            "end": "2025"
+                        }
+                    ]
+                }
+            ],
+            "companies": [
+                {
+                    "name": "Kaliop",
+                    "jobs": [
+                        {
+                            "title": "Apprenti Ingénieur Logiciel",
+                            "start": "avril 2024",
+                            "end": "aujourd'hui",
+                            "description": "Je participe au développement d’applications web avec une méthodologie Agile pour de grands groupes internationnaux. J’utilise au quotidien les technologies Nuxt3, NestJS, GraphQL, Redis et OpenSearch."
+                        }
+                    ]
+                },
+                {
+                    "name": "Lundi Matin",
+                    "jobs": [
+                        {
+                            "title": "Apprenti Ingénieur DevOps",
+                            "start": "octobre 2023",
+                            "end": "mars 2024",
+                            "description": "Au sein du service infra, j'étais présent à la maintenance de l'infrastructure et à la mise en place de nouveaux outils pour l'équipe de développement."
+                        }
+                    ]
+                },
+                {
+                    "name": "Eiffage Energy System",
+                    "jobs": [
+                        {
+                            "title": "Stage en développement web",
+                            "start": "juin 2023",
+                            "end": "août 2023",
+                            "description": "Au du service de développement web, j'ai participé au développement de l'application web SmartCar-E du groupe Eiffage."
+                        }
+                    ]
+                },
+                {
+                    "name": "LIRMM",
+                    "jobs": [
+                        {
+                            "title": "Stage en laboratoire de recherche",
+                            "start": "mai 2022",
+                            "end": "juillet 2022",
+                            "description": "Au sein de l'équipe TEXT, j'ai contribué à la recherche de nouvelles méthodes de traitement de texte pour les chercheurs du laboratoire."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
