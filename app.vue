@@ -113,8 +113,8 @@ const { t } = useI18n();
         <div class="flex flex-col	gap-4">
           <Project
             :name="'Plannify'"
-            :links="{ gitlab: 'https://gitlab.com', external: 'https://app.plannify.be' }"
-            :description="'Plannify est une application web qui permet aux chauffeurs routiers de saisir leurs journées et générer des rapports personnaliées.'"
+            :links="{ gitlab: 'https://gitlab.com/plannify-group', external: 'https://app.plannify.be' }"
+            :description="'Plannify est une application web qui permet aux chauffeurs routiers de saisir leurs journées et générer des rapports personnalisés.'"
             :details="[
               {
                 type: 'Front-end',
@@ -187,7 +187,7 @@ const { t } = useI18n();
           </div>
           <Project
             :name="'Polycount'"
-            :links="{ gitlab: 'https://gitlab.com', external: 'https://polycount.baptistebronsin.be' }"
+            :links="{ gitlab: 'https://gitlab.com/baptiste.bronsin/polycount', external: 'https://polycount.baptistebronsin.be' }"
             :description="'Polycount est ma première application web en Javascript. Elle permet à des utilisateurs d’assigner des dépenses lors d’activités en groupe (comme Tricount).'"
             :details="[
               {
@@ -209,8 +209,8 @@ const { t } = useI18n();
           </div>
           <Project
             :name="'Prix opérateur'"
-            :links="{ gitlab: 'https://gitlab.com', external: 'https://prix-operateur.baptistebronsin.be' }"
-            :description="'Prix opérateur permet à un utilisateur s’il est préférable d’acheter un smartphone avec ou sans un opérateur téléphonique.'"
+            :links="{ gitlab: 'https://gitlab.com/baptiste.bronsin/prix_operateur', external: 'https://prix-operateur.baptistebronsin.be' }"
+            :description="'Prix opérateur indique à un utilisateur s’il est préférable d’acheter un smartphone avec ou sans un opérateur téléphonique.'"
             :details="[
               {
                 type: 'Front-end',
