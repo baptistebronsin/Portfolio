@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": "Bonjour, je m'appelle ",
-        "firstSubTitle": "J’ai 22 ans et je suis passionné d’informatique depuis un peu plus de 5 ans.",
+        "firstSubTitle": "J’ai 22 ans et passionné de nouvelles technologies, d’informatique depuis presque toujours (trop loin pour m'en souvenir).",
         "secondSubTitle": {
             "part1": "Je suis aujourd’hui apprenti ingénieur DevOps à l’école ",
             "link1": "Polytech de Montpellier",
@@ -18,17 +18,17 @@
                     "name": "Faculté des Sciences de Montpellier",
                     "years": [
                         {
-                            "name": "Licence 1 Informatique",
+                            "name": "Licence 1 Informatique (CMI)",
                             "start": "2020",
                             "end": "2021"
                         },
                         {
-                            "name": "Licence 2 Informatique",
+                            "name": "Licence 2 Informatique (CMI)",
                             "start": "2021",
                             "end": "2022"
                         },
                         {
-                            "name": "Licence 3 Informatique",
+                            "name": "Licence 3 Informatique (CMI)",
                             "start": "2022",
                             "end": "2023"
                         }
@@ -74,13 +74,13 @@
                     ]
                 },
                 {
-                    "name": "Eiffage Energy System",
+                    "name": "Eiffage Énergie Systèmes",
                     "jobs": [
                         {
                             "title": "Stage en développement web",
                             "start": "juin 2023",
                             "end": "août 2023",
-                            "description": "Au du service de développement web, j'ai participé au développement de l'application web SmartCar-E du groupe Eiffage."
+                            "description": "Au sein du service de développement web, j'ai participé au développement de l'application web SmartCar-E du groupe Eiffage."
                         }
                     ]
                 },
@@ -97,5 +97,135 @@
                 }
             ]
         }
+    },
+    "project": {
+        "title": "Projets",
+        "components": [
+            {
+                "name": "Plannify",
+                "links": {
+                    "gitlab": "https://gitlab.com/plannify-group",
+                    "github": null,
+                    "external": "https://app.plannify.be"
+                },
+                "description": "Plannify est une application web qui permet aux chauffeurs routiers de saisir leurs journées et générer des rapports personnalisés.",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "ReactJS (TypeScript)"
+                    },
+                    {
+                        "type": "Back-end",
+                        "technology": "NestJS (TypeScript), PostgreSQL, Redis, MinIO"
+                    },
+                    {
+                        "type": "Serveur mail",
+                        "technology": "Docker Mailserver"
+                    },
+                    {
+                        "type": "Déploiement",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            },
+            {
+                "name": "SealCI",
+                "links": {
+                    "gitlab": null,
+                    "github": "https://github.com/dev-sys-do/sealci",
+                    "external": null
+                },
+                "description": "SealCI est un projet étudiant visant à développer un moteur de CI/CD.",
+                "details": [
+                    {
+                        "type": "Langage utilisé",
+                        "technology": "Rust"
+                    }
+                ]
+            },
+            {
+                "name": "Beep",
+                "links": {
+                    "gitlab": null,
+                    "github": null,
+                    "external": "https://beep.ovh"
+                },
+                "description": "Beep est une application web qui vise à implémenter les mêmes fonctionnalités que la plateforme Discord. Ce projet est développé par l’ensemble de la promotion 2023-2026 de DevOps à Polytech Montpellier.",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "ReactJS (TypeScript, Redux)"
+                    },
+                    {
+                        "type": "Back-end",
+                        "technology": "Adonis (TypeScript), PostgreSQL, Redis, MinIO"
+                    },
+                    {
+                        "type": "CI/CD",
+                        "technology": "ArgoCD"
+                    },
+                    {
+                        "type": "Serveur mail",
+                        "technology": "Docker Mailserver"
+                    },
+                    {
+                        "type": "Déploiement",
+                        "technology": "Docker, Kubernetes"
+                    },
+                    {
+                        "type": "Monitoring",
+                        "technology": "Prometheus, Grafana"
+                    }
+                ]
+            },
+            {
+                "name": "Polycount",
+                "links": {
+                    "gitlab": "https://gitlab.com/baptiste.bronsin/polycount",
+                    "github": null,
+                    "external": "https://polycount.baptistebronsin.be"
+                },
+                "description": "Polycount est ma première application web en Javascript. Elle permet à des utilisateurs d’assigner des dépenses lors d’activités en groupe (comme Tricount).",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "ReactJS (TypeScript)"
+                    },
+                    {
+                        "type": "Back-end",
+                        "technology": "Express (TypeScript), PostgreSQL"
+                    },
+                    {
+                        "type": "Déploiement",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            },
+            {
+                "name": "Prix opérateur",
+                "links": {
+                    "gitlab": "https://gitlab.com/baptiste.bronsin/prix_operateur",
+                    "github": null,
+                    "external": "https://prix-operateur.baptistebronsin.be"
+                },
+                "description": "Prix opérateur indique à un utilisateur s’il est préférable d’acheter un smartphone avec ou sans un opérateur téléphonique.",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "HTML, CSS et TypeScript"
+                    },
+                    {
+                        "type": "Déploiement",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "descriptions": [
+            "Mon profil professionnel vous intéresse, curieux de me rencontrer ?",
+            "Contactez-moi à l’adresse "
+        ]
     }
 }

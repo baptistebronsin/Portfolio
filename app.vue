@@ -109,28 +109,31 @@ const { t } = useI18n();
           </div>
         </div>
       </Section>
-      <Section :title="'Projets'">
+      <Section :title="t('project.title')">
         <div class="flex flex-col	gap-4">
           <Project
-            :name="'Plannify'"
-            :links="{ gitlab: 'https://gitlab.com/plannify-group', external: 'https://app.plannify.be' }"
-            :description="'Plannify est une application web qui permet aux chauffeurs routiers de saisir leurs journées et générer des rapports personnalisés.'"
+            :name="t('project.components[0].name')"
+            :links="{
+              gitlab: t('project.components[0].links.gitlab'),
+              external: t('project.components[0].links.external')
+            }"
+            :description="t('project.components[0].description')"
             :details="[
               {
-                type: 'Front-end',
-                technology: 'ReactJS (TypeScript)'
+                type: t('project.components[0].details[0].type'),
+                technology: t('project.components[0].details[0].technology')
               },
               {
-                type: 'Back-end',
-                technology: 'NestJS (TypeScript), PostgreSQL, Redis, MinIO'
+                type: t('project.components[0].details[1].type'),
+                technology: t('project.components[0].details[1].technology')
               },
               {
-                type: 'Serveur mail',
-                technology: 'Docker Mailserver'
+                type: t('project.components[0].details[2].type'),
+                technology: t('project.components[0].details[2].technology')
               },
               {
-                type: 'Déploiement',
-                technology: 'Docker, Kubernetes'
+                type: t('project.components[0].details[3].type'),
+                technology: t('project.components[0].details[3].technology')
               }
             ]"
           />
@@ -138,13 +141,15 @@ const { t } = useI18n();
             <div class="border-t w-[80%] sm:w-px sm:border-r border-custom-grey"></div>
           </div>
           <Project
-            :name="'SealCI'"
-            :links="{ github: 'https://github.com/dev-sys-do/sealci' }"
-            :description="'SealCI est un projet étudiant visant à développer un moteur de CI/CD.'"
+            :name="t('project.components[1].name')"
+            :links="{
+              github: t('project.components[1].links.github')
+            }"
+            :description="t('project.components[1].description')"
             :details="[
               {
-                type: 'Langage utilisé',
-                technology: 'Rust'
+                type: t('project.components[1].details[0].type'),
+                technology: t('project.components[1].details[0].technology')
               }
             ]"
           />
@@ -152,33 +157,35 @@ const { t } = useI18n();
             <div class="border-t w-[80%] sm:w-px sm:border-r border-custom-grey"></div>
           </div>
           <Project
-            :name="'Beep'"
-            :links="{ external: 'https://beep.ovh' }"
-            :description="'Beep est une application web qui vise à implémenter les mêmes fonctionnalités que la plateforme Discord. Ce projet est développé par l’ensemble de la promotion 2023-2026 de DevOps à Polytech Montpellier.'"
+            :name="t('project.components[2].name')"
+            :links="{
+              external: t('project.components[2].links.external')
+            }"
+            :description="t('project.components[2].description')"
             :details="[
               {
-                type: 'Front-end',
-                technology: 'ReactJS (TypeScript, Redux)'
+                type: t('project.components[2].details[0].type'),
+                technology: t('project.components[2].details[0].technology')
               },
               {
-                type: 'Back-end',
-                technology: 'Adonis (TypeScript), PostgreSQL, Redis, MinIO'
+                type: t('project.components[2].details[1].type'),
+                technology: t('project.components[2].details[1].technology')
               },
               {
-                type: 'CI/CD',
-                technology: 'ArgoCD'
+                type: t('project.components[2].details[2].type'),
+                technology: t('project.components[2].details[2].technology')
               },
               {
-                type: 'Serveur mail',
-                technology: 'Docker Mailserver'
+                type: t('project.components[2].details[3].type'),
+                technology: t('project.components[2].details[3].technology')
               },
               {
-                type: 'Déploiement',
-                technology: 'Docker, Kubernetes'
+                type: t('project.components[2].details[4].type'),
+                technology: t('project.components[2].details[4].technology')
               },
               {
-                type: 'Monitoring',
-                technology: 'Prometheus, Grafana'
+                type: t('project.components[2].details[5].type'),
+                technology: t('project.components[2].details[5].technology')
               }
             ]"
           />
@@ -186,21 +193,24 @@ const { t } = useI18n();
             <div class="border-t w-[80%] sm:w-px sm:border-r border-custom-grey"></div>
           </div>
           <Project
-            :name="'Polycount'"
-            :links="{ gitlab: 'https://gitlab.com/baptiste.bronsin/polycount', external: 'https://polycount.baptistebronsin.be' }"
-            :description="'Polycount est ma première application web en Javascript. Elle permet à des utilisateurs d’assigner des dépenses lors d’activités en groupe (comme Tricount).'"
+            :name="t('project.components[3].name')"
+            :links="{
+              gitlab: t('project.components[3].links.gitlab'),
+              external: t('project.components[3].links.external')
+            }"
+            :description="t('project.components[3].description')"
             :details="[
               {
-                type: 'Front-end',
-                technology: 'ReactJS (TypeScript)'
+                type: t('project.components[3].details[0].type'),
+                technology: t('project.components[3].details[0].technology')
               },
               {
-                type: 'Back-end',
-                technology: 'Express (TypeScript), PostgreSQL'
+                type: t('project.components[3].details[1].type'),
+                technology: t('project.components[3].details[1].technology')
               },
               {
-                type: 'Déploiement',
-                technology: 'Docker, Kubernetes'
+                type: t('project.components[3].details[2].type'),
+                technology: t('project.components[3].details[2].technology')
               }
             ]"
           />
@@ -208,25 +218,28 @@ const { t } = useI18n();
             <div class="border-t w-[80%] sm:w-px sm:border-r border-custom-grey"></div>
           </div>
           <Project
-            :name="'Prix opérateur'"
-            :links="{ gitlab: 'https://gitlab.com/baptiste.bronsin/prix_operateur', external: 'https://prix-operateur.baptistebronsin.be' }"
-            :description="'Prix opérateur indique à un utilisateur s’il est préférable d’acheter un smartphone avec ou sans un opérateur téléphonique.'"
+            :name="t('project.components[4].name')"
+            :links="{
+              gitlab: t('project.components[4].links.gitlab'),
+              external: t('project.components[4].links.external')
+            }"
+            :description="t('project.components[4].description')"
             :details="[
               {
-                type: 'Front-end',
-                technology: 'HTML, CSS et TypeScript'
+                type: t('project.components[4].details[0].type'),
+                technology: t('project.components[4].details[0].technology')
               },
               {
-                type: 'Déploiement',
-                technology: 'Docker, Kubernetes'
+                type: t('project.components[4].details[1].type'),
+                technology: t('project.components[4].details[1].technology')
               }
             ]"
           />
         </div>
       </Section>
       <Section :title="'Me contacter'">
-        <p>Mon profil vous intéresse et vous êtes curieux d’en savoir un peu plus sur moi ?<br/>
-          Contactez-moi à l’adresse <a class="text-secondary-color underline" href="mailto:contact@baptistebronsin.be">contact@baptistebronsin.be</a>.</p>
+        <p>{{ $t("contact.descriptions[0]") }}<br/>
+          {{ $t("contact.descriptions[1]") }}<a class="text-secondary-color underline" href="mailto:contact@baptistebronsin.be">contact@baptistebronsin.be</a>.</p>
       </Section>
       <div class="mt-40 mb-6 flex justify-between items-center">
         <div class="flex items-center gap-4">

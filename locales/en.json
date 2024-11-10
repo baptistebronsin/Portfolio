@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": "Hello, I'm ",
-        "firstSubTitle": "I'm 22 years old, and I have been passionate about computer science for a little over 5 years.",
+        "firstSubTitle": "I'm 22 years old and I've been passionate about new technologies and computers for most of my life (too long to remember).",
         "secondSubTitle": {
             "part1": "Today, I'm a DevOps engineering apprentice at ",
             "link1": "Polytech Montpellier",
@@ -97,5 +97,135 @@
                 }
             ]
         }
+    },
+    "project": {
+        "title": "Projects",
+        "components": [
+            {
+                "name": "Plannify",
+                "links": {
+                    "gitlab": "https://gitlab.com/plannify-group",
+                    "github": null,
+                    "external": "https://app.plannify.be"
+                },
+                "description": "Plannify is a web application that allows truck drivers to enter their days and generate personalized reports.",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "ReactJS (TypeScript)"
+                    },
+                    {
+                        "type": "Back-end",
+                        "technology": "NestJS (TypeScript), PostgreSQL, Redis, MinIO"
+                    },
+                    {
+                        "type": "Mail server",
+                        "technology": "Docker Mailserver"
+                    },
+                    {
+                        "type": "Deployment",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            },
+            {
+                "name": "SealCI",
+                "links": {
+                    "gitlab": null,
+                    "github": "https://github.com/dev-sys-do/sealci",
+                    "external": null
+                },
+                "description": "SealCI is a student project aimed at developing a CI/CD engine.",
+                "details": [
+                    {
+                        "type": "Language used",
+                        "technology": "Rust"
+                    }
+                ]
+            },
+            {
+                "name": "Beep",
+                "links": {
+                    "gitlab": null,
+                    "github": null,
+                    "external": "https://beep.ovh"
+                },
+                "description": "Beep is a web application that aims to implement the same functionalities as the Discord platform. This project is being developed by the entire DevOps class of 2023-2026 at Polytech Montpellier.",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "ReactJS (TypeScript, Redux)"
+                    },
+                    {
+                        "type": "Back-end",
+                        "technology": "Adonis (TypeScript), PostgreSQL, Redis, MinIO"
+                    },
+                    {
+                        "type": "CI/CD",
+                        "technology": "ArgoCD"
+                    },
+                    {
+                        "type": "Mail server",
+                        "technology": "Docker Mailserver"
+                    },
+                    {
+                        "type": "Deployment",
+                        "technology": "Docker, Kubernetes"
+                    },
+                    {
+                        "type": "Monitoring",
+                        "technology": "Prometheus, Grafana"
+                    }
+                ]
+            },
+            {
+                "name": "Polycount",
+                "links": {
+                    "gitlab": "https://gitlab.com/baptiste.bronsin/polycount",
+                    "github": null,
+                    "external": "https://polycount.baptistebronsin.be"
+                },
+                "description": "Polycount is my first Javascript web application. It allows users to assign expenses to group activities (like Tricount).",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "ReactJS (TypeScript)"
+                    },
+                    {
+                        "type": "Back-end",
+                        "technology": "Express (TypeScript), PostgreSQL"
+                    },
+                    {
+                        "type": "Deployment",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            },
+            {
+                "name": "Operator price",
+                "links": {
+                    "gitlab": "https://gitlab.com/baptiste.bronsin/prix_operateur",
+                    "github": null,
+                    "external": "https://prix-operateur.baptistebronsin.be"
+                },
+                "description": "Operator price tells a user whether it's better to buy a smartphone with or without a phone operator.",
+                "details": [
+                    {
+                        "type": "Front-end",
+                        "technology": "HTML, CSS et TypeScript"
+                    },
+                    {
+                        "type": "Deployment",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "descriptions": [
+            "Are you interested in my profile and curious to find out more about me?",
+            "Contact me at "
+        ]
     }
 }

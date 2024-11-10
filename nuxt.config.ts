@@ -13,8 +13,15 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US' },
       { code: 'fr', language: 'fr-FR' }
     ],
+    debug: true,
     defaultLocale: 'fr',
     strategy: 'prefix',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+      alwaysRedirect: false,
+    },    
   },
   css: ['~/assets/css/main.css'],
   postcss: {
