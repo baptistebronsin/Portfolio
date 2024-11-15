@@ -237,7 +237,7 @@ const { t } = useI18n();
           />
         </div>
       </Section>
-      <Section :title="'Me contacter'">
+      <Section :title="t('contact.title')">
         <p>{{ $t("contact.descriptions[0]") }}<br/>
           {{ $t("contact.descriptions[1]") }}<a class="text-secondary-color underline" href="mailto:contact@baptistebronsin.be">contact@baptistebronsin.be</a>.</p>
       </Section>
