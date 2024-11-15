@@ -46,6 +46,6 @@ EXPOSE 3000
 # Démarrer l'application
 CMD ["node", ".output/server/index.mjs"]
 
-# docker build -t registry.gitlab.com/baptiste.bronsin/portfolio:1.0.4 .
-# docker push registry.gitlab.com/baptiste.bronsin/portfolio:1.0.4
+# docker build -t registry.gitlab.com/baptiste.bronsin/portfolio:1.0.5 .
+# docker push registry.gitlab.com/baptiste.bronsin/portfolio:1.0.5
 # docker run -p 3000:3000 registry.gitlab.com/baptiste.bronsin/portfolio:1.0.2

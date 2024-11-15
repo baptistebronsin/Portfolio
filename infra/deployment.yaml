@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: portfolio-dev
-        image: registry.gitlab.com/baptiste.bronsin/portfolio:1.0.4
+        image: registry.gitlab.com/baptiste.bronsin/portfolio:1.0.5
         ports:
         - containerPort: 3000
       imagePullSecrets:
