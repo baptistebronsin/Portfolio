@@ -4,9 +4,9 @@ metadata:
   name: portfolio
   namespace: argocd
 spec:
-  project: default
+  project: portfolio
   source:
-    repoURL: https://gitlab.com/plannify-group/plannify-front-web-user.git
+    repoURL: https://gitlab.com/baptiste.bronsin/portfolio.git
     targetRevision: main
     path: helm
   destination:
