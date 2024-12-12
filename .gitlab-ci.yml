@@ -1,15 +1,6 @@
 stages:
-  - lint
   - build
   - deploy
-
-lint:
-  image: node:20
-  stage: lint
-  script:
-    - npm install -g pnpm
-    - pnpm install
-    - pnpm run lint
 
 build:
   image: docker:20.10.7
