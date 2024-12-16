@@ -6,9 +6,9 @@ const { t } = useI18n();
 <template>
   <div class="flex justify-center pt-6 px-4">
     <div class="max-w-6xl w-full text-primary-color text-base sm:text-lg">
-      <h1 class="text-xl sm:text-2xl font-semibold">{{ $t('aboutMe.title') }}<span class="text-secondary-color">Baptiste BRONSIN</span></h1>
-      <p class="mt-8">{{ $t('aboutMe.firstSubTitle') }}</p>
-      <p class="mt-2">{{ $t('aboutMe.secondSubTitle.part1') }}<NuxtLink class="text-secondary-color" to="https://www.polytech.umontpellier.fr/" target="_blank">{{ $t('aboutMe.secondSubTitle.link1') }}</NuxtLink>{{ $t('aboutMe.secondSubTitle.part2') }}<NuxtLink class="text-secondary-color" to="https://www.kaliop.com/fr/" target="_blank">{{ $t('aboutMe.secondSubTitle.link2') }}</NuxtLink>{{ $t('aboutMe.secondSubTitle.part3') }}</p>
+      <h1 class="text-xl sm:text-2xl font-semibold">{{ t('aboutMe.title') }}<span class="text-secondary-color">Baptiste BRONSIN</span></h1>
+      <p class="mt-8">{{ t('aboutMe.firstSubTitle') }}</p>
+      <p class="mt-2">{{ t('aboutMe.secondSubTitle.part1') }}<NuxtLink class="text-secondary-color" to="https://www.polytech.umontpellier.fr/" target="_blank">{{ t('aboutMe.secondSubTitle.link1') }}</NuxtLink>{{ t('aboutMe.secondSubTitle.part2') }}<NuxtLink class="text-secondary-color" to="https://www.kaliop.com/fr/" target="_blank">{{ t('aboutMe.secondSubTitle.link2') }}</NuxtLink>{{ t('aboutMe.secondSubTitle.part3') }}</p>
 
       <Section :title="t('career.title')">
         <div class="flex flex-col sm:grid sm:grid-cols-[1fr_1px_2fr] gap-4">
@@ -238,8 +238,8 @@ const { t } = useI18n();
         </div>
       </Section>
       <Section :title="t('contact.title')">
-        <p>{{ $t("contact.descriptions[0]") }}<br/>
-          {{ $t("contact.descriptions[1]") }}<a class="text-secondary-color underline" href="mailto:contact@baptistebronsin.be">contact@baptistebronsin.be</a>.</p>
+        <p>{{ t("contact.descriptions[0]") }}<br/>
+          {{ t("contact.descriptions[1]") }}<a class="text-secondary-color underline" href="mailto:contact@baptistebronsin.be">contact@baptistebronsin.be</a>.</p>
       </Section>
       <div class="mt-40 mb-6 flex justify-between items-center">
         <div class="flex items-center gap-4">
