@@ -144,6 +144,11 @@ useHead({
                 type: t('project.components[0].details[3].type'),
                 technology: t('project.components[0].details[3].technology')
               }
+              ,
+              {
+                type: t('project.components[0].details[4].type'),
+                technology: t('project.components[0].details[4].technology')
+              }
             ]"
           />
           <div class="flex justify-center mt-4 sm:hidden">
@@ -152,13 +157,33 @@ useHead({
           <Project
             :name="t('project.components[1].name')"
             :links="{
-              github: t('project.components[1].links.github')
+              external: t('project.components[1].links.external')
             }"
             :description="t('project.components[1].description')"
             :details="[
               {
                 type: t('project.components[1].details[0].type'),
                 technology: t('project.components[1].details[0].technology')
+              },
+              {
+                type: t('project.components[1].details[1].type'),
+                technology: t('project.components[1].details[1].technology')
+              },
+              {
+                type: t('project.components[1].details[2].type'),
+                technology: t('project.components[1].details[2].technology')
+              },
+              {
+                type: t('project.components[1].details[3].type'),
+                technology: t('project.components[1].details[3].technology')
+              },
+              {
+                type: t('project.components[1].details[4].type'),
+                technology: t('project.components[1].details[4].technology')
+              },
+              {
+                type: t('project.components[1].details[5].type'),
+                technology: t('project.components[1].details[5].technology')
               }
             ]"
           />
@@ -168,6 +193,7 @@ useHead({
           <Project
             :name="t('project.components[2].name')"
             :links="{
+              gitlab: t('project.components[2].links.gitlab'),
               external: t('project.components[2].links.external')
             }"
             :description="t('project.components[2].description')"
@@ -187,14 +213,6 @@ useHead({
               {
                 type: t('project.components[2].details[3].type'),
                 technology: t('project.components[2].details[3].technology')
-              },
-              {
-                type: t('project.components[2].details[4].type'),
-                technology: t('project.components[2].details[4].technology')
-              },
-              {
-                type: t('project.components[2].details[5].type'),
-                technology: t('project.components[2].details[5].technology')
               }
             ]"
           />
@@ -204,26 +222,17 @@ useHead({
           <Project
             :name="t('project.components[3].name')"
             :links="{
-              gitlab: t('project.components[3].links.gitlab'),
-              external: t('project.components[3].links.external')
+              github: t('project.components[3].links.github')
             }"
             :description="t('project.components[3].description')"
             :details="[
               {
                 type: t('project.components[3].details[0].type'),
                 technology: t('project.components[3].details[0].technology')
-              },
-              {
-                type: t('project.components[3].details[1].type'),
-                technology: t('project.components[3].details[1].technology')
-              },
-              {
-                type: t('project.components[3].details[2].type'),
-                technology: t('project.components[3].details[2].technology')
               }
             ]"
           />
-          <div class="flex justify-center mt-2 sm:hidden">
+          <div class="flex justify-center mt-4 sm:hidden">
             <div class="border-t w-[80%] sm:w-px sm:border-r border-custom-grey"></div>
           </div>
           <Project
@@ -241,6 +250,31 @@ useHead({
               {
                 type: t('project.components[4].details[1].type'),
                 technology: t('project.components[4].details[1].technology')
+              },
+              {
+                type: t('project.components[4].details[2].type'),
+                technology: t('project.components[4].details[2].technology')
+              }
+            ]"
+          />
+          <div class="flex justify-center mt-2 sm:hidden">
+            <div class="border-t w-[80%] sm:w-px sm:border-r border-custom-grey"></div>
+          </div>
+          <Project
+            :name="t('project.components[5].name')"
+            :links="{
+              gitlab: t('project.components[5].links.gitlab'),
+              external: t('project.components[5].links.external')
+            }"
+            :description="t('project.components[5].description')"
+            :details="[
+              {
+                type: t('project.components[5].details[0].type'),
+                technology: t('project.components[5].details[0].technology')
+              },
+              {
+                type: t('project.components[5].details[1].type'),
+                technology: t('project.components[5].details[1].technology')
               }
             ]"
           />

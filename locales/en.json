@@ -122,27 +122,16 @@
                         "technology": "NestJS (TypeScript), PostgreSQL, Redis, MinIO"
                     },
                     {
+                        "type": "CI/CD",
+                        "technology": "ArgoCD"
+                    },
+                    {
                         "type": "Mail server",
                         "technology": "Docker Mailserver"
                     },
                     {
                         "type": "Deployment",
                         "technology": "Docker, Kubernetes"
-                    }
-                ]
-            },
-            {
-                "name": "SealCI",
-                "links": {
-                    "gitlab": null,
-                    "github": "https://github.com/dev-sys-do/sealci",
-                    "external": null
-                },
-                "description": "SealCI is a student project aimed at developing a CI/CD engine.",
-                "details": [
-                    {
-                        "type": "Language used",
-                        "technology": "Rust"
                     }
                 ]
             },
@@ -178,6 +167,48 @@
                     {
                         "type": "Monitoring",
                         "technology": "Prometheus, Grafana"
+                    }
+                ]
+            },
+            {
+                "name": "Portfolio",
+                "links": {
+                    "gitlab": "https://gitlab.com/baptiste.bronsin/portfolio",
+                    "github": null,
+                    "external": "https://baptistebronsin.be"
+                },
+                "description": "The Portfolio project is the website you are currently visiting. It is a personal project that I developed to present my career and my projects.",
+                "details": [
+                    {
+                        "type": "Framework used",
+                        "technology": "NuxtJS (VueJS)"
+                    },
+                    {
+                        "type": "Rendering",
+                        "technology": "SSR (for SEO)"
+                    },
+                    {
+                        "type": "CI/CD",
+                        "technology": "ArgoCD"
+                    },
+                    {
+                        "type": "Deployment",
+                        "technology": "Docker, Kubernetes"
+                    }
+                ]
+            },
+            {
+                "name": "SealCI",
+                "links": {
+                    "gitlab": null,
+                    "github": "https://github.com/dev-sys-do/sealci",
+                    "external": null
+                },
+                "description": "SealCI is a student project aimed at developing a CI/CD engine.",
+                "details": [
+                    {
+                        "type": "Language used",
+                        "technology": "Rust"
                     }
                 ]
             },
