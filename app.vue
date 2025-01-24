@@ -2,6 +2,15 @@
 import { LucideGitlab, LucideLinkedin } from '#components';
 
 const { t } = useI18n();
+
+useHead({
+  meta: [
+    {
+      name: "description",
+      content: t("meta.description")
+    }
+  ]
+})
 </script>
 <template>
   <div class="flex justify-center pt-6 px-4">

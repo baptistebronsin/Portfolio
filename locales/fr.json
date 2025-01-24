@@ -1,4 +1,7 @@
 {
+    "meta": {
+        "description": "Baptiste Bronsin - Apprenti ingénieur DevOps"
+    },
     "aboutMe": {
         "title": "Bonjour, je m'appelle ",
         "firstSubTitle": "J’ai 23 ans et passionné de nouvelles technologies, d’informatique depuis presque toujours (trop loin pour m'en souvenir).",
