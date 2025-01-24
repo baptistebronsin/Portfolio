@@ -2,7 +2,7 @@ namespace: portfolio
 
 front:
   name: portfolio-front
-  image: registry.gitlab.com/baptiste.bronsin/portfolio:main-6410cdba
+  image: registry.gitlab.com/baptiste.bronsin/portfolio:main-5871d05d
   replicaCount: 1
   port: 3000
 
