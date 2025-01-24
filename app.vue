@@ -255,7 +255,7 @@ useHead({
           <NuxtLink to="https://gitlab.com/baptiste.bronsin" target="_blank" class="text-secondary-color"><LucideGitlab :size="20"/></NuxtLink>
           <NuxtLink to="https://www.linkedin.com/in/baptiste-bronsin" target="_blank" class="text-secondary-color"><LucideLinkedin :size="20"/></NuxtLink>
         </div>
-        <p class="text-tertiary-color">© 2024 Baptiste BRONSIN</p>
+        <p class="text-tertiary-color">2025 Baptiste BRONSIN</p>
       </div>
     </div>
   </div>
