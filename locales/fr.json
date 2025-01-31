@@ -109,7 +109,8 @@
                 "links": {
                     "gitlab": "https://gitlab.com/plannify-group",
                     "github": null,
-                    "external": "https://app.plannify.be"
+                    "external": "https://app.plannify.be",
+                    "figma": "https://www.figma.com/design/vlMureDnPXS57a8OXcP5p2/Plannify-user-web?node-id=200-38&t=isEdmypp5GHnlxEN-1"
                 },
                 "description": "Plannify est une application web qui permet aux chauffeurs routiers de saisir leurs journées et générer des rapports personnalisés.",
                 "details": [

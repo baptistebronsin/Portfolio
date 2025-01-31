@@ -124,7 +124,8 @@ useHead({
             :name="t('project.components[0].name')"
             :links="{
               gitlab: t('project.components[0].links.gitlab'),
-              external: t('project.components[0].links.external')
+              external: t('project.components[0].links.external'),
+              figma: t('project.components[0].links.figma')
             }"
             :description="t('project.components[0].description')"
             :details="[
