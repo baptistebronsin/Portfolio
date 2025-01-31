@@ -24,8 +24,8 @@ const props = defineProps<Props>();
             <div class="flex gap-2">
                 <NuxtLink :to="props.links.gitlab" target="_blank" v-if="props.links.gitlab"><LucideGitlab color="#FC6D26" :size="20"/></NuxtLink>
                 <NuxtLink :to="props.links.github" target="_blank" v-if="props.links.github"><LucideGithub color="#171515" :size="20"/></NuxtLink>
+                <NuxtLink :to="props.links.figma" target="_blank" v-if="props.links.figma"><LucideFigma color="#A259FF" :size="20"/></NuxtLink>
                 <NuxtLink :to="props.links.external" target="_blank" v-if="props.links.external"><LucideLink color="#ADADAD" :size="20"/></NuxtLink>
-                <NuxtLink :to="props.links.figma" target="_blank" v-if="props.links.figma"><LucideFigma color="#A259FF" :size="20" /></NuxtLink>
             </div>
         </div>
         <div class="flex flex-col sm:grid sm:grid-cols-[1fr_1px_1fr] gap-4">
