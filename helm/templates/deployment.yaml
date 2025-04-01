@@ -18,3 +18,4 @@ spec:
         image: {{ .Values.front.image }}
         ports: 
         - containerPort: {{ .Values.front.port }}
+  revisionHistoryLimit: 1
