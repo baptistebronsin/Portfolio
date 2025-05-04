@@ -263,5 +263,9 @@
             "Mon profil professionnel vous intéresse, curieux de me rencontrer ?",
             "Contactez-moi à l’adresse "
         ]
+    },
+    "environment": {
+        "title": "L'environnement et l'écologie sont pour moi des sujets très importants. C'est pourquoi ce projet a été certifié par",
+        "link": "https://www.ecoindex.fr"
     }
 }

@@ -263,5 +263,9 @@
             "Are you interested in my profile and curious to find out more about me?",
             "Contact me at "
         ]
+    },
+    "environment": {
+        "title": "Environment and ecology are very important to me. That's why this project has been certified by",
+        "link": "https://www.ecoindex.fr/en"
     }
 }

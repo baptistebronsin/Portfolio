@@ -285,7 +285,13 @@ useHead({
         <p>{{ t("contact.descriptions[0]") }}<br/>
           {{ t("contact.descriptions[1]") }}<a class="text-secondary-color underline" href="mailto:contact@baptistebronsin.be">contact@baptistebronsin.be</a>.</p>
       </Section>
-      <div class="mt-40 mb-6 flex justify-between items-center">
+      <div class="flex flex-col gap-2 mt-8">
+        <p>{{ t('environment.title') }} <a class="text-secondary-color" :href="t('environment.link')" target="_blank">EcoIndex</a>.</p>
+        <a href="https://bff.ecoindex.fr/redirect/?url=https://baptistebronsin.be" target="_blank">
+          <img src="https://bff.ecoindex.fr/badge/?theme=light&url=https://https://baptistebronsin.be" alt="Ecoindex Badge" />
+        </a>
+      </div>
+      <div class="mt-20 mb-6 flex justify-between items-center">
         <div class="flex items-center gap-4">
           <NuxtLink to="https://gitlab.com/baptiste.bronsin" target="_blank" class="text-secondary-color"><LucideGitlab :size="20"/></NuxtLink>
           <NuxtLink to="https://www.linkedin.com/in/baptiste-bronsin" target="_blank" class="text-secondary-color"><LucideLinkedin :size="20"/></NuxtLink>
